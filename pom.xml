@@ -19,12 +19,21 @@
         <!--<module>spring-cloud-eureka/spring-cloud-eureka-two</module>-->
         <!--<module>spring-cloud-eureka/spring-cloud-eureka-cluster</module>-->
 
-        <!-- eureka-producer-consumer -->
+        <!-- 利用eureka实现服务提供与调用示例 -->
         <module>eureka-producer-consumer/spring-cloud-producer</module>
         <!--<module>eureka-producer-consumer/spring-cloud-consumer</module>-->
 
-        <!-- eureka-producer-consumer -->
-        <module>spring-cloud-hystrix/spring-cloud-consumer-hystrix</module>
+        <!-- Hystrix熔断的使用示例 -->
+        <!--<module>spring-cloud-hystrix/spring-cloud-consumer-hystrix</module>-->
+
+        <!-- 熔断监控Hystrix Dashboard和Turbine的示例 -->
+        <!--<module>hystrix-dashboard-turbine/spring-cloud-consumer-hystrix-dashboard</module>-->
+        <!--有问题，跑不通-->
+        <!--<module>hystrix-dashboard-turbine/hystrix-dashboard-turbine</module>-->
+
+        <!--配置中心git版本示例-->
+        <module>spring-cloud-config-git/spring-cloud-config-server</module>
+        <module>spring-cloud-config-git/spring-cloud-config-client</module>
 
 
     </modules>

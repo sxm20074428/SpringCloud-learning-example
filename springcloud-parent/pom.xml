@@ -31,7 +31,6 @@
         <com.alibaba.druid.version>1.1.3</com.alibaba.druid.version>
         <pagehelper-spring-boot-starter.version>1.2.0</pagehelper-spring-boot-starter.version>
 
-        <org.webjars.jquery.version>3.2.1</org.webjars.jquery.version>
         <org.webjars.webjars-locator.version>0.32</org.webjars.webjars-locator.version>
 
         <springfox-swagger2.version>2.7.0</springfox-swagger2.version>
@@ -107,12 +106,6 @@
                 <version>${druid-spring-boot-starter.version}</version>
             </dependency>
 
-            <!--WebJars jQuery依赖 http://www.webjars.org/-->
-            <dependency>
-                <groupId>org.webjars</groupId>
-                <artifactId>jquery</artifactId>
-                <version>${org.webjars.jquery.version}</version>
-            </dependency>
             <!-- 省略 webjar 版本 -->
             <dependency>
                 <groupId>org.webjars</groupId>

@@ -1,4 +1,4 @@
-# 服务调用
+# 熔断器
 Feign Hystrix
 
 因为熔断只是作用在服务调用这一端，因此我们根据上一篇的示例代码只需要改动spring-cloud-consumer项目相关代码就可以。

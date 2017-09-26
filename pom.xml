@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>springcloud</groupId>
+    <artifactId>parent-modules</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+
+        <!--父工程-->
+        <!--集中控制所有模块的版本-->
+        <module>springcloud-parent</module>
+
+        <!-- 注册中心Eureka -->
+        <!-- eureka server单机、双机、集群示例 -->
+        <module>spring-cloud-eureka/spring-cloud-eureka</module>
+        <!--<module>spring-cloud-eureka/spring-cloud-eureka-two</module>-->
+        <!--<module>spring-cloud-eureka/spring-cloud-eureka-cluster</module>-->
+
+        <!-- eureka-producer-consumer -->
+        <module>eureka-producer-consumer/spring-cloud-producer</module>
+        <!--<module>eureka-producer-consumer/spring-cloud-consumer</module>-->
+
+        <!-- eureka-producer-consumer -->
+        <module>spring-cloud-hystrix/spring-cloud-consumer-hystrix</module>
+
+
+    </modules>
+
+</project>
